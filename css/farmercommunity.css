@@ -1,0 +1,57 @@
+header{
+  background-image: url('../image/pexels-pixabay-235731.jpg');
+}
+.registration-page{
+  background-image: url('../image/farmer-page.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80rem;
+  padding-top: 50px;
+  padding-top: 200px;
+}
+.form-floating input,.form-floating select{
+  background: transparent;
+  border: 1px solid #132a07;
+  border-radius: 7px;
+}
+.form-floating input:focus{
+  background:rgba(19,42,7,0.2);
+}
+.form-floating label:focus{
+  color: #fff;
+}
+.shadow-box{
+  padding-top: 100px;
+  background-color: rgba(255,255,255,0.7);
+  width: 40rem;
+  padding: 150px 50px;
+  border-radius: 10px;
+}
+.sign-up-btn button{
+  display: flex!important;
+  padding: 0.5rem 1.5rem!important;
+  background: #132a07!important;
+  border: inherit;
+}
+.registration-page h2{
+  text-align: center;
+  text-transform: uppercase;
+font-family: 'Josefin Sans', sans-serif;
+color: #132a07;
+padding-bottom: 150px;
+}
+.signIn-link a:hover{
+  color:#967E76!important;
+}
+.signIn-form{
+  padding: 5px 300px;
+}
+
+
+
+@media(max-width:676px){
+  .body{
+    margin-top: 10rem!important;
+  }
+}

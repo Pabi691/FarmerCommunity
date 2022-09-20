@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400&family=Shadows+Into+Light&display=swap');
+
+body{
+  background-color: #edeeed;
+}
+.about-img{
+  background-image: url('../image/carousel-header/pexels-quang-nguyen-vinh-2131784.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.services-main{
+  margin-top: -53px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background: #edeeed;
+}
+/* .main-services{
+  background-image: url('../image/services.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+} */
+.main-services{
+  height: 100vh;
+  padding-top: 150px;
+  margin-top: -50px;
+}
+.drops{
+  position:relative;
+}
+
+.drop{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: transparent;
+  border-radius: 57% 43% 45% 55% / 60% 66% 34% 40%  ;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.5),
+              15px 25px 10px rgba(0, 0, 0, 0.1),
+              15px 20px 20px rgba(0, 0, 0, 0.5),
+              inset 10px 10px 10px rgba(255, 255, 255, 0.9);
+}
+.drop::before{
+  content: '';
+  position: absolute;
+  top:25px;
+  left:35px;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius:23% 77% 45% 55% / 60% 31% 69% 40% ;
+}
+.drop::after{
+  content: '';
+  position: absolute;
+  top:25px;
+  left:65px;
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius:69% 31% 45% 55% / 21% 73% 27% 79%  ;
+}
+.drop:nth-child(2){
+  transform: scale(0.5) translate(-200px,200px);
+}
+.drop:nth-child(3){
+  transform: scale(0.5) translate(300px,-30px);
+}
+.drop:nth-child(4){
+  transform: scale(0.35) translate(20px,-370px);
+}
+.another-services
+
+.agriculture-products-01, .organic-products-01, .fresh-vegetables-01, .dairy-products-01, .soli-testing-01,.organic-farming-01,.agriculture-events-01,.digital-magazine-01{
+  background: rgba(255,255,255,0.5);
+  width: 500px;
+  height: 300px;
+
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+.drops-1{
+  float: left;
+}
+.drops-2{
+  float: right;
+}
+.drops-3{
+  float: left;
+}
+.drops-4{
+  float: right;
+  padding-right: 25rem;
+}
+.drops-5{
+  float: left;
+}
+.drops-6{
+  float: right;
+  padding-right: 25rem;
+}
+.drops-7{
+  float: left;
+}
+.drops-8{
+  float: right;
+  padding-right: 25rem;
+}
+
+.organic-products-01{
+  float: right;
+}
+.drop-product-2{
+  transform: translate(0,300px);
+}
+.drop-product-3{
+transform: translate(0,300px);
+padding-left: 213px;
+}
+.dairy-products-01{
+  padding-left: 319px;
+  width: 42rem;
+}
+.drop-product-4{
+  transform: translate(0,300px);
+}
+.agriculture-products-01{
+  width: 22rem;
+}
+.drop-product-5{
+  transform: translate(0,300px);
+  padding-left: 213px;
+}
+.soli-testing-01{
+  padding-left: 319px;
+  width: 42rem;
+}
+.drop-product-6{
+transform: translate(0,300px);
+}
+.organic-farming-01{
+  width: 22rem;
+}
+.drop-product-7{
+  transform: translate(0,300px);
+  padding-left: 213px;
+}
+.agriculture-events-01{
+  padding-left: 319px;
+  width: 42rem;
+}
+.drop-product-8{
+transform: translate(0,300px);
+}
+.digital-magazine-01{
+  width: 22rem;
+}
+.another-services{
+  padding-bottom: 500px;
+  padding-top: 150px;
+}
+h2{
+  text-transform: capitalize;
+  font-family:'Shadows Into Light', cursive;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  color:  #132a07;
+}
+
+
+
+
+
+@media(max-width:530px){
+  .width-98 {
+    width: 98%!important;
+  }
+}

@@ -1,0 +1,11 @@
+body{
+  background-image: url('../image/pexels-rihan-(ishan)-das-2519332.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+  background: rgba(255, 255, 255, 0.5);
+  margin-top: 10rem;
+  padding: 10rem 0;
+}

@@ -1,0 +1,7 @@
+.about-img{
+  background-image: url('../image/carousel-header/pexels-quang-nguyen-vinh-2131784.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
