@@ -467,6 +467,12 @@ footer hr{
 
     justify-content: center!important;
   }
+  .carousel-item img{
+    height: 100vh;
+  }
+  header{
+    height:100vh;
+  }
   .chart{
     width: 100%!important;
     padding-left: 30px!important;
@@ -484,6 +490,12 @@ footer hr{
   .chart{
     flex-direction: column;
     align-items: center;
+  }
+.carousel-item img{
+    height: 70vh;
+  }
+  header{
+    height:70vh;
   }
   .headline-name h1{
     margin: 0;
@@ -637,6 +649,12 @@ footer hr{
   .navbar-nav{
     margin-left: 19.1rem!important;
   }
+.carousel-item img{
+    height: 100vh;
+  }
+  header{
+    height:100vh;
+  }
 }
 @media (max-width:723px) {
    .welcome-part-body{
@@ -646,6 +664,12 @@ footer hr{
 @media (max-width:554px) {
    .welcome-part-body{
      padding-bottom: 40rem!important;
+   }
+.carousel-item img{
+     height: 50vh;
+   }
+   header{
+     height:50vh;
    }
 }
 @media(max-width:991px){
