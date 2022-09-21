@@ -32,7 +32,6 @@ header{
   height: 550px;
 }
 .carousel-item img{
-  height: 39vh;
   object-fit: cover;
   background-position: center;
 }
